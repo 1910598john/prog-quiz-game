@@ -43,7 +43,7 @@ $("#start-game").click(function(){
     start_quiz_duration();
     $.ajax({
         type: 'GET',
-        url: 'questions.json',
+        url: 'files/questions.json',
         success: function(res) {
             let quiz = res;
             start_quiz(quiz);
@@ -118,7 +118,7 @@ $("#start-game").click(function(){
                 let correct_answers = [];
                 $.ajax({
                     type: 'GET',
-                    url: 'questions.json',
+                    url: 'files/questions.json',
                     success: function(res){
                         let questions = res;
                         for (let i = 0; i < answers.length; i++) {
@@ -188,7 +188,7 @@ $("#start-game").click(function(){
         $(this).css("visibility", "hidden");
         $.ajax({
             type: 'GET',
-            url: 'questions.json',
+            url: 'files/questions.json',
             success: function(res) {
                 let quiz = res;
                 start_quiz(quiz);

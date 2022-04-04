@@ -1,0 +1,130 @@
+[{
+    "question" : "Which of these is NOT a programming language?",
+    "correctAnswer" : {
+        "answer" : "A"
+    },
+    "choices" : {
+        "A" : "Banana",
+        "B" : "Ruby",
+        "C" : "Python",
+        "D" : "JAVA"
+    }
+},
+
+{
+    "question" : "Which of the following is NOT a type of computer code related to Program Execution?",
+    "correctAnswer" : {
+        "answer" : "D"
+    },
+    "choices" : {
+        "A" : "Source code",
+        "B" : "Bytecode",
+        "C" : "Machine Code",
+        "D" : "Hex Code"
+    }
+},
+
+    {
+    "question" : "What does a compiler do?",
+    "correctAnswer" : {
+        "answer" : "B"
+    },
+    "choices" : {
+        "A" : "Translates computer code from machine level to byte code",
+        "B" : "Translates computer code from higher-level programming language to machine code",
+        "C" : "Translates computer code from lower-level programming language to higher-level programming language",
+        "D" : "Translates computer code from machine level to byte code"
+    }
+},
+
+{
+    "question" : "Which of the following is not a programming language?",
+    "correctAnswer" : {
+        "answer" : "C"
+    },
+    "choices" : {
+        "A" : "TypeScript",
+        "B" : "Python",
+        "C" : "Anaconda",
+        "D" : "Java"
+    }
+},
+
+{
+    "question" : "Which of the following includes Chrome's V8 JavaScript Engine?",
+    "correctAnswer" : {
+        "answer" : "D"
+    },
+    "choices" : {
+        "A" : "jQuery",
+        "B" : "Java",
+        "C" : "npm",
+        "D" : "Node.js"
+    }
+},
+
+
+{
+    "question" : "Python is a _____ programming language.",
+    "correctAnswer" : {
+        "answer" : "A"
+    },
+    "choices" : {
+        "A" : "high-level",
+        "B" : "mid-level",
+        "C" : "low-level",
+        "D" : "none of these"
+    }
+},
+
+{
+    "question" : "Which of the following is an apt description for an algorithm?",
+    "correctAnswer" : {
+        "answer" : "A"
+    },
+    "choices" : {
+        "A" : "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer",
+        "B" : "Program statements that run to execute a task",
+        "C" : "A set of instructions written in a programming language to perform a task",
+        "D" : "Set of instructions decoded from a high-level programming code to perform the task"
+    }
+},
+
+{
+    "question" : "WhatsApp concurrent model is implemented using _____ programming language.",
+    "correctAnswer" : {
+        "answer" : "C"
+    },
+    "choices" : {
+        "A" : "Java",
+        "B" : "Node.js",
+        "C" : "Erlang",
+        "D" : "C"
+    }
+},
+
+{
+    "question" : "What does HTML stand for?",
+    "correctAnswer" : {
+        "answer" : "C"
+    },
+    "choices" : {
+        "A" : "Hyper Trainer Marking Language",
+        "B" : "Hyper Text Marketing Language",
+        "C" : "Hyper Text Markup Language",
+        "D" : "Hyper Text Markup Leveler"
+    }
+},
+
+{
+    "question" : "The programming process is a __________.",
+    "correctAnswer" : {
+        "answer" : "D"
+    },
+    "choices" : {
+        "A" : "System-development process",
+        "B" : "Coding process",
+        "C" : "Testing process",
+        "D" : "Problem solving process"
+    }
+}]

@@ -26,13 +26,17 @@ function start_quiz_duration(){
     let sec = 0;
     setInterval(function(){
         if (sec == 59) {
+            $("#minute").css("overflow-y", "scroll");
             min++
             sec = 0;
             document.getElementById(`min${min}`).scrollIntoView();
+            $("#minute").css("overflow-y", "hidden");
         }
         else {
+            $("#second").css("overflow-y", "scroll");
             sec++
             document.getElementById(`sec${sec}`).scrollIntoView();
+            $("#second").css("overflow-y", "hidden");
         }
 
     }, 1000);
